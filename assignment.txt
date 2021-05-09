@@ -1,0 +1,266 @@
+1. class assi1 {
+public static void main(String args[])
+{
+    System.out.println("Hello");
+
+    System.out.println("Priyanka Patil");
+}
+
+}
+
+
+
+
+2.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+  	int c;
+	Scanner sc=new Scanner(System.in);
+	int a=sc.nextInt();
+	int b=sc.nextInt();
+        c=a+b;
+	System.out.println("The Addition is=" +c);
+	
+}
+
+}
+
+
+3.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+  	int c;
+	Scanner sc=new Scanner(System.in);
+	int a=sc.nextInt();
+	int b=sc.nextInt();
+        c=a/b;
+	System.out.println("The Division is=" +c);
+	
+}
+
+}
+
+4.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+  	int a,b,c,d;
+	a=-5+8*6;
+	b=(55+9)%9;
+	c=20+-3*5/8;
+	d=5+15/3*2-8%3;
+	System.out.println(a);
+	System.out.println(b);
+ 	System.out.println(c);
+	System.out.println(d);
+	
+	
+}
+
+}
+
+5.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+  	int c;
+	Scanner sc=new Scanner(System.in);
+	int a=sc.nextInt();
+	int b=sc.nextInt();
+        c=a*b;
+	System.out.println("The Multiplication is=" +c);
+	
+}
+
+}
+
+
+6.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+  	int c,d,e;
+	Scanner sc=new Scanner(System.in);
+	int a=sc.nextInt();
+	int b=sc.nextInt();
+        c=a+b;
+	d=a-b;
+	e=a*b;
+	
+	System.out.println("The Addition is=" +c);
+	System.out.println("The Substraction is=" +d);
+	System.out.println("The Multiplication is=" +e);
+
+	
+}
+
+}
+
+
+7.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+  	int i,c;
+	
+	Scanner sc=new Scanner(System.in);
+	int a=sc.nextInt();
+	for(i=1;i<=10;i++)
+      {
+       System.out.println("Table of 8="+(c=a*i));
+
+}	
+}
+
+}
+
+
+9.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+  	double a=((25.5*3.5-3.5*3.5)/(40.5-4.5));
+	
+      
+       System.out.println(a);
+
+	
+}
+
+}
+
+10. import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+  	double a=4.0*(1-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11));
+	
+      
+       System.out.println(a);	
+}
+
+}
+
+
+
+
+11.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+{
+     double pi=3.14159;
+	Scanner sc=new Scanner(System.in);
+	double r=7.5;
+       double area,perimeter;
+     area=pi*(r*r);
+	perimeter=2*pi*r;
+     	
+	System.out.println("area of circle= "+area);
+	System.out.println("area of circle= "+perimeter);
+      	
+}
+
+}
+
+
+12.import java.util.Scanner;
+class assi1 {
+public static void main(String args[])
+  {
+    int ave;  
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter Three Number");
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    int c=sc.nextInt();
+    ave=(a+b+c)/3;
+
+    System.out.println("The average is : "+ave);
+
+
+   }
+
+}
+
+13.
+class assi1 {
+public static void main(String args[])
+{
+     double w=5.6;
+     double h=8.5;
+     double area,perimeter;
+     area=(w*h);
+     perimeter=(2*(w+h));
+	System.out.println("area of rectangle= "+area);
+	System.out.println("perimeter of rectangle= "+perimeter);
+      	
+}
+
+}
+
+
+14.
+class assi1 {
+public static void main(String args[])
+{
+     int a=1,b=2,temp;
+     
+    System.out.println("Swapping of two number");
+	temp=a;
+	a=b;
+	b=temp;
+   System.out.println(a);
+   System.out.println(b);
+}
+}
+
+15.class assi1 {
+public static void main(String args[])
+{
+     int a=1,b=2,temp;
+     
+    System.out.println("Swapping of two number");
+	temp=a;
+	a=b;
+	b=temp;
+   System.out.println(a);
+   System.out.println(b);
+}
+}
+	 
+	 
+
+16.
+class assi1 {
+public static void main(String args[])
+{
+    System.out.println(" +\"\"\"\"\"+ ");
+        System.out.println("[| o o |]");
+        System.out.println(" |  ^  | ");
+        System.out.println(" | '-' | ");
+        System.out.println(" +-----+ ");
+      	
+}
+
+}	        
+
+
+17.class assi1 {
+ public static void main(String[] args) {
+  String a,b;
+   a = "* * * * * * * ================================\n * * * * * * =================================";
+   b = "==============================================";
+  for (int i = 0; i < 4; i++) 
+  {
+   System.out.println(a);
+  }
+  
+  for (int i = 0; i < 9; i++)
+ {
+   System.out.println(b);
+  }
+
+ }
+}        
